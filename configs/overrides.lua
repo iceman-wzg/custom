@@ -3,6 +3,10 @@ local M = {}
 M.treesitter = {
   ensure_installed = {
     "lua",
+    "sql",
+    "css",
+    "html",
+    "python",
     "markdown",
     "markdown_inline",
   },

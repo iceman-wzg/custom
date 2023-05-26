@@ -31,6 +31,9 @@ local plugins = {
   {
     "nvim-treesitter/nvim-treesitter",
     opts = overrides.treesitter,
+    event = function()
+      require("nvim-treesitter.install").prefer_git = true
+    end,
   },
 
   {
@@ -45,6 +48,15 @@ local plugins = {
     config = function()
       require("better_escape").setup()
     end,
+  },
+-- install markdown-preview
+  -- install without yarn or npm
+  {
+    "iamcco/markdown-preview.nvim",
+    bulid = function()
+      vim.fn["mkdp#util#install"]()
+    end,
+    cmd = {"MarkdownPreview", "MarkdownPreviewStop", "MarkdownPreviewToggle"}
   },
 
   -- To make a plugin not be loaded
