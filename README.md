@@ -45,3 +45,14 @@
 ```
 
 对configs/overrides.lua文件进行修改，增加语言支持，自动安装
+
+### 2.3 vim-table-mode
+
+对markdown表格支持，在Plugins.lua添加
+
+```lua
+  {
+    "dhruvasagar/vim-table-mode",
+    ft = "markdown"
+  },
+```
