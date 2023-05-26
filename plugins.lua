@@ -56,7 +56,8 @@ local plugins = {
     bulid = function()
       vim.fn["mkdp#util#install"]()
     end,
-    cmd = {"MarkdownPreview", "MarkdownPreviewStop", "MarkdownPreviewToggle"}
+    cmd = {"MarkdownPreview", "MarkdownPreviewStop", "MarkdownPreviewToggle"},
+    ft = "markdown"
   },
 
   -- To make a plugin not be loaded

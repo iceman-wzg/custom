@@ -27,7 +27,8 @@
     bulid = function()
       vim.fn["mkdp#util#install"]()
     end,
-    cmd = {"MarkdownPreview", "MarkdownPreviewStop", "MarkdownPreviewToggle"}
+    cmd = {"MarkdownPreview", "MarkdownPreviewStop", "MarkdownPreviewToggle"},
+    ft = "markdow"
   },
 ```
 
