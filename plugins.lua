@@ -63,6 +63,10 @@ local plugins = {
     "dhruvasagar/vim-table-mode",
     ft = "markdown"
   },
+  {
+    "mzlogin/vim-markdown-toc",
+    ft = "markdown"
+  },
 
 }
 

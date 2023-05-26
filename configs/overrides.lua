@@ -9,6 +9,7 @@ M.treesitter = {
     "python",
     "markdown",
     "markdown_inline",
+    "mermaid",
   },
   indent = {
     enable = true,

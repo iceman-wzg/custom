@@ -1,5 +1,16 @@
 # NvChad config nvim
 
+<!-- vim-markdown-toc GFM -->
+
+* [1. How to Install Nvchad](#1-how-to-install-nvchad)
+* [2. Install More Plugins](#2-install-more-plugins)
+    * [2.1 Markdown-Preview.nvim](#21-markdown-previewnvim)
+    * [2.2 nvim-treesitter](#22-nvim-treesitter)
+    * [2.3 vim-table-mode](#23-vim-table-mode)
+    * [2.4 vim-markdown-toc](#24-vim-markdown-toc)
+
+<!-- vim-markdown-toc -->
+
 ## 1. How to Install Nvchad
 
 **Pre-requisites:**
@@ -56,3 +67,16 @@
     ft = "markdown"
   },
 ```
+
+### 2.4 vim-markdown-toc
+
+生成markdown文件目录插件
+
+```lua
+  {
+    "mzlogin/vim-markdown-toc",
+    ft = "markdown"
+  },
+```
+
+<++>
