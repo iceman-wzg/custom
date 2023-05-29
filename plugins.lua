@@ -49,8 +49,7 @@ local plugins = {
       require("better_escape").setup()
     end,
   },
--- install markdown-preview
-  -- install without yarn or npm
+-- Install markdown-plugins
   {
     "iamcco/markdown-preview.nvim",
     bulid = function()
