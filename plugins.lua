@@ -29,6 +29,11 @@ local plugins = {
   },
 
   {
+    "williamboman/mason-lspconfig.nvim",
+    cmd = {"LspInstall","LspUninstall"},
+  },
+
+  {
     "nvim-treesitter/nvim-treesitter",
     opts = overrides.treesitter,
     event = function()
