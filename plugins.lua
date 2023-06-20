@@ -29,11 +29,6 @@ local plugins = {
   },
 
   {
-    "williamboman/mason-lspconfig.nvim",
-    cmd = {"LspInstall","LspUninstall"},
-  },
-
-  {
     "nvim-treesitter/nvim-treesitter",
     opts = overrides.treesitter,
     event = function()
@@ -57,7 +52,7 @@ local plugins = {
 -- Install markdown-plugins
   {
     "iamcco/markdown-preview.nvim",
-    bulid = function()
+    build = function()
       vim.fn["mkdp#util#install"]()
     end,
     cmd = {"MarkdownPreview", "MarkdownPreviewStop", "MarkdownPreviewToggle"},

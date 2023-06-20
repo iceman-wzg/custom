@@ -18,7 +18,7 @@ M.md ={
     [",p"] = {"![](<++>) <++><Esc>F[a", "图片"},
     [",a"] = {"[](<++>) <++><Esc>F[a", "超链接"},
     [",,"] = {"<Space><++><Space>", "tag"},
-    [",f"] = {"<Esc>/<++><CR>:nohlsearch<CR>_c4l", "查找"},
+    [",f"] = {"<Esc>/<++><CR>:nohlsearch<CR>\"_c4l", "查找"},
   },
   n = {
     ["r"] = {"<Esc>:MarkdownPreview<CR>", "md-preview"}
